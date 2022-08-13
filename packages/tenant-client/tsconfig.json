@@ -1,0 +1,12 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.web.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["vite/client", "element-plus/global"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "/src": ["./src/*"]
+    }
+  },
+  "exclude": ["dist", "node_modules"]
+}
